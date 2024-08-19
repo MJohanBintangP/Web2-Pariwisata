@@ -1,0 +1,495 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* Hero Section*/
+
+.hero {
+    background-image: url('danautoba.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.hero .hero-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; 
+    padding: 2rem;
+}
+
+.hero .navbar {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero .navbar .navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.hero .navbar .nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 4.5rem;
+}
+
+.hero .navbar .nav a {
+    display: inline-block;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.hero .navbar .nav a {
+    font-weight: 600;
+    color: #ffffff;
+    align-content: center;
+}
+
+.hero .navbar .nav a:hover {
+    color: #021A56;
+}
+
+.hero .navbar .navbar-ekstra {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.hero .navbar .navbar-ekstra a:hover {
+    color: #021A56;
+}
+
+
+.hero .hero-h1 h1 {
+    font-size: 40px;
+}
+
+.hero .container .hero-a {
+    display: flex;
+    justify-content: center;
+}
+
+.hero .container .hero-a .btn-hero {
+    display: inline-flex;
+    gap: 1rem;
+    border: none;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #021A56;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero .container .hero-a .btn-hero:hover {
+    background-color: #020A3D;
+}
+
+/* Body Section */
+
+.body1 .container-body1 {
+    margin-bottom: 5rem;
+}
+
+.body1 .container-body1 .judul-body1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.body1 .container-body1 .judul-body1 h1 {
+    color: #021A56;
+    font-size: 3rem;
+}
+
+.body1 .container-body1 .image-body1 {
+    gap: 50px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.body1 .container-body1 .image-body1 .img1-body1 img,
+.body1 .container-body1 .image-body1 .img2-body1 img,
+.body1 .container-body1 .image-body1 .img3-body1 img,
+.body1 .container-body1 .image-body1 .img4-body1 img,
+.body1 .container-body1 .image-body1 .img5-body1 img,
+.body1 .container-body1 .image-body1 .img6-body1 img,
+.body1 .container-body1 .image-body1 .img7-body1 img,
+.body1 .container-body1 .image-body1 .img8-body1 img {
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* body2 Section */
+
+.body2 .container-body2 {
+    background-color: #021A56;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.body2 .container-body2 .desk-body2 {
+    margin-right: 80px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.body2 .container-body2 .desk-body2 .teks-body2 {
+    margin-right: 12rem;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    gap: 20px;
+}
+
+.body2 .container-body2 .desk-body2 .teks-body2 h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.body2 .container-body2 .desk-body2 .teks-body2 p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.body2 .container-body2 .desk-body2 img {
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.body2 .artikelTerkait-body2 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.body2 .artikelTerkait-body2 h1 {
+    margin-bottom: 5rem;
+    color: #021A56;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.body2 .test {
+    display: flex;
+    justify-content: center;
+}
+
+.body2 .artikelTerkait-body2 .container-artikel {
+    display: column;
+}
+
+.body2 .artikelTerkait-body2 .container-artikel .artikel-body2 {
+    margin-bottom: 5rem;
+}
+
+.body2 .artikelTerkait-body2 .container-artikel .artikel-body2, .artikel2-body2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.body2 .artikelTerkait-body2 .container-artikel .artikel-body2 .text-column, .text-column2 {
+    margin-left: 2rem;
+    display: column;
+}
+
+.body2 .artikelTerkait-body2 .container-artikel .artikel-body2 h1,.body2 .artikelTerkait-body2 .container-artikel .artikel2-body2 h1 {
+    font-size: 25px;
+    color: #000;
+}
+
+.body2 .artikelTerkait-body2 .container-artikel .artikel-body2 p,.body2 .artikelTerkait-body2 .container-artikel .artikel2-body2 p {
+    font-size: 15px;
+}
+
+.body2 .artikelTerkait-body2 .container-artikel .artikel-body2 img, .artikel2-body2 img {
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Body3 Section */
+
+.body3 .searchbox {
+    display: flex;
+    justify-content: center;
+}
+
+.body3 .searchbox .search-box {
+    position: relative;
+    width: 55%;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+}
+
+.body3 .searchbox .search-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.body3 .searchbox .search-box .content-searchbox {
+    margin-left: 4rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    padding: 0 1rem;
+    width: auto;
+    z-index: 10;
+}
+
+.body3 .searchbox .search-box .search-container {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    z-index: 10;
+}
+
+.body3 .searchbox .search-box .search-container .search {
+    color: #A4A4A4;
+} 
+
+.body3 .searchbox .search-box .search-container input {
+    padding: 0.8rem;
+    border: none;
+    outline: none;
+    width: 15rem;
+    font-size: 10px;
+    border-radius: 10px;
+    color: #A4A4A4;
+    font-weight: 600;
+}
+
+/* Body4 Section */
+.body4 {
+    margin-top: 5rem;
+}
+
+.body4 .jadwal {
+    display: flex;
+    justify-content: center;
+}
+
+.body4 .jadwal h1 {
+    font-weight: 600;
+    color: #021A56;
+    font-size: 3rem;
+}
+
+.body4 .container-jadwal {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.body4 .container-jadwal .box1, .box2, .box3 {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 20rem;
+    height: 28rem;
+}
+
+.body4 .container-jadwal .box1 h1 , .box2 h1 , .box3 h1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.body4 .container-jadwal .box1 .column-jadwal , .body4 .container-jadwal .box2 .column2-jadwal , .body4 .container-jadwal .box3 .column3-jadwal  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.body4 .container-jadwal .box1 .column-jadwal .jadwal-box , .jadwal2-box , .jadwal3-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #021A56;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.body4 .container-jadwal .box1 .column-jadwal .jadwal-box .center1 , .jadwal2-box .center2 , .jadwal3-box .center3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    gap: 1rem;
+}
+
+.body4 .container-jadwal .box2 .column2-jadwal .jadwal-box2 .center4 , .jadwal2-box2 .center5 , .jadwal3-box2 .center6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    gap: 1rem;
+}
+
+.body4 .container-jadwal .box3 .column3-jadwal .jadwal-box3 .center7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 1rem;
+}
+
+.body4 .container-jadwal .box3 .column3-jadwal .jadwal2-box3 .center8 , .jadwal3-box3 .center9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    gap: 1rem;
+}
+
+.body4 .container-jadwal .box1 .column-jadwal .jadwal-box p, .jadwal2-box p, .jadwal3-box p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.body4 .container-jadwal .box1 .column-jadwal .jadwal-box .number1,  .jadwal2-box .number2, .jadwal3-box .number3 {
+    font-size: 25px;
+}
+
+.body4 .container-jadwal .box2 .column2-jadwal .jadwal-box2 , .jadwal2-box2 , .jadwal3-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #021A56;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.body4 .container-jadwal .box2 .column2-jadwal .jadwal-box2 p, .jadwal2-box2 p, .jadwal3-box2 p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.body4 .container-jadwal .box2 .column2-jadwal .jadwal-box2 .number4,  .jadwal2-box2 .number5, .jadwal3-box2 .number6 {
+    font-size: 25px;
+}
+
+.body4 .container-jadwal .box3 .column3-jadwal .jadwal-box3 , .jadwal2-box3 , .jadwal3-box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #021A56;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.body4 .container-jadwal .box3 .column3-jadwal .jadwal-box3 p, .jadwal2-box3 p, .jadwal3-box3 p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.body4 .container-jadwal .box3 .column3-jadwal .jadwal-box3 .number7, .jadwal2-box3 .number8, .jadwal3-box3 .number9 {
+    font-size: 25px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 7rem;
+}
+
+.footer .footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #021A56;
+    width: 100%;
+    height: 7rem;
+}
+
+.footer .footer-box .column-box {
+    display: column;
+}
+
+.footer .footer-box .footer-icon , a {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    gap: 15px;
+}
+
+.footer .footer-box .footer-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 1rem;
+}
